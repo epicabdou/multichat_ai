@@ -95,14 +95,12 @@ const routes: Array<RouteRecordRaw> = [
     component: ApiKeysManagementView,
     meta: { requiresAuth: true, layout: 'MainLayout' }
   },
-  /**
   {
     path: '/api-keys/:id?',
     name: 'AddEditApiKeyView',
     component: AddEditApiKeyView,
     meta: { requiresAuth: true, layout: 'MainLayout' }
   },
-    */
   {
     path: '/subscription',
     name: 'SubscriptionManagementView',
